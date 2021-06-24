@@ -7,27 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09681B1255C6F4D8FF61364F4BC50E57 /* YFCalendarView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F11AB74357319D27F30A0E1B668A2CBF /* YFCalendarView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		09FBE2E0FF8717554DA1557624C37CFB /* YFCalendarView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 457EF0FFEB67D197D490AAFC92FEEC54 /* YFCalendarView-dummy.m */; };
+		0A699CD167CCC58B390A2CFB62DAB081 /* EXCalendarCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E729883D402562F8DE2994D0D6AE7A /* EXCalendarCircleView.m */; };
+		0AC0142D128A166C9DBDF8430AD68AA7 /* EXCalendarApperance.m in Sources */ = {isa = PBXBuildFile; fileRef = E366BC257178065508A25CDBA29DE4AA /* EXCalendarApperance.m */; };
+		1C54AA7F4081F370FE3AD0A8F66D1FDE /* EXCalendarApperance.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D53946B8C5F79268FF73B50190453E5 /* EXCalendarApperance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EF29C9CB1D5CF4AA25BEC97B3FB0318 /* EXCalendarCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F8EEA7F283AD57964ED6A47F1E939CC1 /* EXCalendarCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FB757568DB1BA735B52A85390ED74C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3680776B76A05A2B91CE6F9A925C163A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3B45A023214DAA9D947875B38C8CD3BE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CE6D6F08184A72232DF105D02A1F33 /* ReplaceMe.m */; };
+		42DBE10A681601AE194BDC5748E5A7D6 /* EXCalendarDayItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 562225DAC7BE837174F48F479B75D99D /* EXCalendarDayItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		497AED5904290B35C099B14011C3F7DE /* Pods-YFCalendarView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E664D0173AE8BE08BA19AA78E9C34F5A /* Pods-YFCalendarView_Tests-dummy.m */; };
+		4AA427128642D0086A5B637F4E8A056D /* EXCalendarCircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = D02AC5146D709A973E782FBE4F470C80 /* EXCalendarCircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DE26DC857D42473DE3ABCFA2199F23 /* EXCalendarWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 923603F4C9F5D7E5C5D04B5604964148 /* EXCalendarWeekView.m */; };
 		57E3F25A254AF5FC06F6139DC4BE6E47 /* Pods-YFCalendarView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E635DE5013138BF56B6D87263F2D8F5 /* Pods-YFCalendarView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5807565538DCAEEB92185AAB7C6EFF3B /* EXCalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9205B13AAB6AA14BE2CBAD60C7F44D /* EXCalendarCollectionViewCell.m */; };
 		59423D5434053E28963C50A989EBD469 /* Pods-YFCalendarView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B522F8E0D9A3ED231927332A60077859 /* Pods-YFCalendarView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		970D8E2C2C8147149001681DB91D656C /* Pods-YFCalendarView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D849A733F9BAB3E56BB788C0A38541B5 /* Pods-YFCalendarView_Example-dummy.m */; };
+		A32B6388489387B8B7804FBF918933BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A54AC21736A72979E8625E03AA1E2F79 /* EXCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 915A0A8146B824C51937E75BF6D88FDE /* EXCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84588C255D9C79EADCCF4273B56ABD5 /* YFCalendarView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F38D469DD4B34255A1A28C2F8A5F06C /* YFCalendarView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE7F425CA15D1D9D6768DF3E3D122EA4 /* EXCalendarCollectionViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8428FB8A5D25FB10629835E0DAF3BA /* EXCalendarCollectionViewFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C166E62C8E719E0BCB14695CF3972100 /* YFCalendarView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F21F3FC9313ECF471440CBB8F81DA57E /* YFCalendarView-dummy.m */; };
+		CA4CE340078CB5A0922900EB9B2096D8 /* EXCalendarCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 646AE3CADD22EF1D657BD66D52466846 /* EXCalendarCollectionViewFlowLayout.m */; };
+		CE27B910CB482101DEB3E73BE8007165 /* EXCalendarWeekView.h in Headers */ = {isa = PBXBuildFile; fileRef = EE987F574295DD6261B676637B909A3B /* EXCalendarWeekView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D775BE0C64A5FC2DB6BAB5339C1F4ABB /* EXCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EEE57C8B14CF7A4B233A17F77359C5 /* EXCalendarManager.m */; };
+		DF01D85ED3C699D058753B6C5F734069 /* EXCalendarDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B35CD272A33556C0A85DF4DC98BFDD53 /* EXCalendarDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E36353BFDFE079FE37335E75F640DC5B /* EXCalendarDayItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAC10507703D7D46F8D54ED92812B98 /* EXCalendarDayItem.m */; };
+		EC9510DAD5B56E84EA9E78C50865773A /* EXCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB12EB17EADD00EC24F5162D799808DC /* EXCalendarView.m */; };
 		FE0429CD472ACB5ECF032526A418EA9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FFFBC9B0AEE0C5288ED5609F16FDBB61 /* EXCalendarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA0060823BBE5975E38B66A8EACA72E /* EXCalendarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		061B9C82D7814D88F5AACCF0A05571DE /* PBXContainerItemProxy */ = {
+		1E4BFC93ED7DF1996F6A642051ED93EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 61DBD7F16D8CF3929BD65DA9F5B16611;
 			remoteInfo = YFCalendarView;
 		};
-		9F6EE4E802534A2D93A78F2B6834A3E2 /* PBXContainerItemProxy */ = {
+		A481B14CF858E57B83F47F5A02E62EB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,49 +54,57 @@
 
 /* Begin PBXFileReference section */
 		01BE3BCE430FC35A935FA5517CCFA09E /* Pods_YFCalendarView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YFCalendarView_Tests.framework; path = "Pods-YFCalendarView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		089CA0AD67F31CEFB06B6DBE38955391 /* YFCalendarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YFCalendarView.modulemap; sourceTree = "<group>"; };
+		083F7CD0347F5B247C8C84D5264FA0DD /* YFCalendarView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YFCalendarView-Info.plist"; sourceTree = "<group>"; };
 		128DD181112825D05BB0E457C219D1A4 /* Pods-YFCalendarView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFCalendarView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1A034E23CA8ECB6773CCBAF6E676D7D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1A545BEF75FB45C46023DBC06B24E5EB /* YFCalendarView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YFCalendarView.debug.xcconfig; sourceTree = "<group>"; };
+		1F38D469DD4B34255A1A28C2F8A5F06C /* YFCalendarView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YFCalendarView-umbrella.h"; sourceTree = "<group>"; };
 		289CBAC7EA404E1C29AF02C79925317A /* YFCalendarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YFCalendarView.framework; path = YFCalendarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		457EF0FFEB67D197D490AAFC92FEEC54 /* YFCalendarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YFCalendarView-dummy.m"; sourceTree = "<group>"; };
-		4D27377FBE8451CCE5A6FF43DD6CA398 /* YFCalendarView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YFCalendarView.release.xcconfig; sourceTree = "<group>"; };
-		4F88B711744A06C30F635D09F093A994 /* YFCalendarView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YFCalendarView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2CA0060823BBE5975E38B66A8EACA72E /* EXCalendarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXCalendarManager.h; path = YFCalendarView/Classes/EXCalendarManager.h; sourceTree = "<group>"; };
+		2F8321CA349834E57F9B794C0266CC69 /* YFCalendarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YFCalendarView-prefix.pch"; sourceTree = "<group>"; };
 		520F8B30CCEA32DF9D49177E437D7C6C /* Pods-YFCalendarView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFCalendarView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		562225DAC7BE837174F48F479B75D99D /* EXCalendarDayItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXCalendarDayItem.h; path = YFCalendarView/Classes/EXCalendarDayItem.h; sourceTree = "<group>"; };
 		59FD365B7F8D7D584C836DF87CB5E480 /* Pods-YFCalendarView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFCalendarView_Example-Info.plist"; sourceTree = "<group>"; };
+		5E9205B13AAB6AA14BE2CBAD60C7F44D /* EXCalendarCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXCalendarCollectionViewCell.m; path = YFCalendarView/Classes/EXCalendarCollectionViewCell.m; sourceTree = "<group>"; };
 		614E498EFB3C7D5CA9A472EA8AB0D4E1 /* Pods-YFCalendarView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YFCalendarView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		646AE3CADD22EF1D657BD66D52466846 /* EXCalendarCollectionViewFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXCalendarCollectionViewFlowLayout.m; path = YFCalendarView/Classes/EXCalendarCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		6D53946B8C5F79268FF73B50190453E5 /* EXCalendarApperance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXCalendarApperance.h; path = YFCalendarView/Classes/EXCalendarApperance.h; sourceTree = "<group>"; };
+		6DAC10507703D7D46F8D54ED92812B98 /* EXCalendarDayItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXCalendarDayItem.m; path = YFCalendarView/Classes/EXCalendarDayItem.m; sourceTree = "<group>"; };
+		7028AF2D57C2024187DE10F664366456 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		79D70ADD30A2169DFF1315A1C36D79B1 /* Pods-YFCalendarView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YFCalendarView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		86ADB7C4737899ED3E823629E62A97CE /* YFCalendarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YFCalendarView-prefix.pch"; sourceTree = "<group>"; };
+		84EEE57C8B14CF7A4B233A17F77359C5 /* EXCalendarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXCalendarManager.m; path = YFCalendarView/Classes/EXCalendarManager.m; sourceTree = "<group>"; };
 		8853AC5C8DD40D4C54A7075D8C56E668 /* Pods-YFCalendarView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFCalendarView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		89BF875309A8712C45149E0105E4E356 /* Pods-YFCalendarView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YFCalendarView_Example.modulemap"; sourceTree = "<group>"; };
+		915A0A8146B824C51937E75BF6D88FDE /* EXCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXCalendarView.h; path = YFCalendarView/Classes/EXCalendarView.h; sourceTree = "<group>"; };
 		9186EF48CBC81534C384ADCFC04D8E6E /* Pods-YFCalendarView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFCalendarView_Tests-Info.plist"; sourceTree = "<group>"; };
+		923603F4C9F5D7E5C5D04B5604964148 /* EXCalendarWeekView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXCalendarWeekView.m; path = YFCalendarView/Classes/EXCalendarWeekView.m; sourceTree = "<group>"; };
 		9675ED09376A54A0919EFC3C037D0B9D /* Pods-YFCalendarView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YFCalendarView_Tests.modulemap"; sourceTree = "<group>"; };
 		9A7DAD9D58735FAA37BF37921D247402 /* Pods_YFCalendarView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YFCalendarView_Example.framework; path = "Pods-YFCalendarView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AFF717DE4EDDB2930C22E7EE8B93BE1 /* YFCalendarView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YFCalendarView-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E635DE5013138BF56B6D87263F2D8F5 /* Pods-YFCalendarView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YFCalendarView_Example-umbrella.h"; sourceTree = "<group>"; };
+		9FCEAAF3DBEAFAEC2531575B978BDB47 /* YFCalendarView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YFCalendarView.release.xcconfig; sourceTree = "<group>"; };
+		A16ABB6E082E29E17462A94637F9E305 /* YFCalendarView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YFCalendarView.debug.xcconfig; sourceTree = "<group>"; };
 		A8693AA3A5B57BC190F41E88B7422606 /* Pods-YFCalendarView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YFCalendarView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB12EB17EADD00EC24F5162D799808DC /* EXCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXCalendarView.m; path = YFCalendarView/Classes/EXCalendarView.m; sourceTree = "<group>"; };
+		ACFED5438BB04960A06B5597B54F9882 /* YFCalendarView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YFCalendarView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B35CD272A33556C0A85DF4DC98BFDD53 /* EXCalendarDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXCalendarDelegate.h; path = YFCalendarView/Classes/EXCalendarDelegate.h; sourceTree = "<group>"; };
+		B4B6E0364F14E82F09B91E2AFFDDD24A /* YFCalendarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YFCalendarView.modulemap; sourceTree = "<group>"; };
 		B522F8E0D9A3ED231927332A60077859 /* Pods-YFCalendarView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YFCalendarView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BCC9A16A8A7AD3838CB7773F7628132F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C8CE6D6F08184A72232DF105D02A1F33 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YFCalendarView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		BC8428FB8A5D25FB10629835E0DAF3BA /* EXCalendarCollectionViewFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXCalendarCollectionViewFlowLayout.h; path = YFCalendarView/Classes/EXCalendarCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		C8E729883D402562F8DE2994D0D6AE7A /* EXCalendarCircleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXCalendarCircleView.m; path = YFCalendarView/Classes/EXCalendarCircleView.m; sourceTree = "<group>"; };
 		CAEA61AB163756243D27F138B33F81E7 /* Pods-YFCalendarView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFCalendarView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D02AC5146D709A973E782FBE4F470C80 /* EXCalendarCircleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXCalendarCircleView.h; path = YFCalendarView/Classes/EXCalendarCircleView.h; sourceTree = "<group>"; };
+		D40ED8C4D4978A65818579B104FFEFC8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D849A733F9BAB3E56BB788C0A38541B5 /* Pods-YFCalendarView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YFCalendarView_Example-dummy.m"; sourceTree = "<group>"; };
+		E366BC257178065508A25CDBA29DE4AA /* EXCalendarApperance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXCalendarApperance.m; path = YFCalendarView/Classes/EXCalendarApperance.m; sourceTree = "<group>"; };
 		E664D0173AE8BE08BA19AA78E9C34F5A /* Pods-YFCalendarView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YFCalendarView_Tests-dummy.m"; sourceTree = "<group>"; };
-		F11AB74357319D27F30A0E1B668A2CBF /* YFCalendarView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YFCalendarView-umbrella.h"; sourceTree = "<group>"; };
+		EE987F574295DD6261B676637B909A3B /* EXCalendarWeekView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXCalendarWeekView.h; path = YFCalendarView/Classes/EXCalendarWeekView.h; sourceTree = "<group>"; };
 		F1AC37ABC612B2AAC00808CC43E4E98F /* Pods-YFCalendarView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFCalendarView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F21F3FC9313ECF471440CBB8F81DA57E /* YFCalendarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YFCalendarView-dummy.m"; sourceTree = "<group>"; };
 		F2DDBD3920D2899714A6B6B174EBC506 /* Pods-YFCalendarView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFCalendarView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8EEA7F283AD57964ED6A47F1E939CC1 /* EXCalendarCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXCalendarCollectionViewCell.h; path = YFCalendarView/Classes/EXCalendarCollectionViewCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0850309344B3E75578B7FA12C538CBF9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3680776B76A05A2B91CE6F9A925C163A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1991CCBA338077201B86B1B8F38C5A5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,6 +118,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FB757568DB1BA735B52A85390ED74C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA08AA8877A740528F0DC02E70914E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32B6388489387B8B7804FBF918933BC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,33 +159,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0C50323353B98E14AE39A6A0BB792498 /* YFCalendarView */ = {
+		1ED77388C98BF996AACF03C2328207D9 /* YFCalendarView */ = {
 			isa = PBXGroup;
 			children = (
-				C8CE6D6F08184A72232DF105D02A1F33 /* ReplaceMe.m */,
-				18A3C676D5D6D36979BCB8E07617A1C1 /* Pod */,
-				26B97CF765463127DED47FCED0EC58AF /* Support Files */,
+				6D53946B8C5F79268FF73B50190453E5 /* EXCalendarApperance.h */,
+				E366BC257178065508A25CDBA29DE4AA /* EXCalendarApperance.m */,
+				D02AC5146D709A973E782FBE4F470C80 /* EXCalendarCircleView.h */,
+				C8E729883D402562F8DE2994D0D6AE7A /* EXCalendarCircleView.m */,
+				F8EEA7F283AD57964ED6A47F1E939CC1 /* EXCalendarCollectionViewCell.h */,
+				5E9205B13AAB6AA14BE2CBAD60C7F44D /* EXCalendarCollectionViewCell.m */,
+				BC8428FB8A5D25FB10629835E0DAF3BA /* EXCalendarCollectionViewFlowLayout.h */,
+				646AE3CADD22EF1D657BD66D52466846 /* EXCalendarCollectionViewFlowLayout.m */,
+				562225DAC7BE837174F48F479B75D99D /* EXCalendarDayItem.h */,
+				6DAC10507703D7D46F8D54ED92812B98 /* EXCalendarDayItem.m */,
+				B35CD272A33556C0A85DF4DC98BFDD53 /* EXCalendarDelegate.h */,
+				2CA0060823BBE5975E38B66A8EACA72E /* EXCalendarManager.h */,
+				84EEE57C8B14CF7A4B233A17F77359C5 /* EXCalendarManager.m */,
+				915A0A8146B824C51937E75BF6D88FDE /* EXCalendarView.h */,
+				AB12EB17EADD00EC24F5162D799808DC /* EXCalendarView.m */,
+				EE987F574295DD6261B676637B909A3B /* EXCalendarWeekView.h */,
+				923603F4C9F5D7E5C5D04B5604964148 /* EXCalendarWeekView.m */,
+				64811A507028C5C17285954DC07E3D13 /* Pod */,
+				FA222C135A1357771BC17EE42FC78083 /* Support Files */,
 			);
 			name = YFCalendarView;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		18A3C676D5D6D36979BCB8E07617A1C1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BCC9A16A8A7AD3838CB7773F7628132F /* LICENSE */,
-				1A034E23CA8ECB6773CCBAF6E676D7D3 /* README.md */,
-				4F88B711744A06C30F635D09F093A994 /* YFCalendarView.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		1ED475FE63C046255733D9E987B1DD21 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0C50323353B98E14AE39A6A0BB792498 /* YFCalendarView */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		22CA16E4CDC78B4E05EA99652999DCCD /* Targets Support Files */ = {
@@ -163,21 +193,6 @@
 				2C2705B7B9AD9116A213C62E4833C9C3 /* Pods-YFCalendarView_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		26B97CF765463127DED47FCED0EC58AF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				089CA0AD67F31CEFB06B6DBE38955391 /* YFCalendarView.modulemap */,
-				457EF0FFEB67D197D490AAFC92FEEC54 /* YFCalendarView-dummy.m */,
-				9AFF717DE4EDDB2930C22E7EE8B93BE1 /* YFCalendarView-Info.plist */,
-				86ADB7C4737899ED3E823629E62A97CE /* YFCalendarView-prefix.pch */,
-				F11AB74357319D27F30A0E1B668A2CBF /* YFCalendarView-umbrella.h */,
-				1A545BEF75FB45C46023DBC06B24E5EB /* YFCalendarView.debug.xcconfig */,
-				4D27377FBE8451CCE5A6FF43DD6CA398 /* YFCalendarView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YFCalendarView";
 			sourceTree = "<group>";
 		};
 		2C2705B7B9AD9116A213C62E4833C9C3 /* Pods-YFCalendarView_Tests */ = {
@@ -196,6 +211,14 @@
 			path = "Target Support Files/Pods-YFCalendarView_Tests";
 			sourceTree = "<group>";
 		};
+		570F8C8399362A7AAE870549A69C7640 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1ED77388C98BF996AACF03C2328207D9 /* YFCalendarView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,11 +227,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		64811A507028C5C17285954DC07E3D13 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7028AF2D57C2024187DE10F664366456 /* LICENSE */,
+				D40ED8C4D4978A65818579B104FFEFC8 /* README.md */,
+				ACFED5438BB04960A06B5597B54F9882 /* YFCalendarView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1ED475FE63C046255733D9E987B1DD21 /* Development Pods */,
+				570F8C8399362A7AAE870549A69C7640 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				0BEFDED6B44873F90B1F15F409D1CBF1 /* Products */,
 				22CA16E4CDC78B4E05EA99652999DCCD /* Targets Support Files */,
@@ -223,14 +256,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA222C135A1357771BC17EE42FC78083 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4B6E0364F14E82F09B91E2AFFDDD24A /* YFCalendarView.modulemap */,
+				F21F3FC9313ECF471440CBB8F81DA57E /* YFCalendarView-dummy.m */,
+				083F7CD0347F5B247C8C84D5264FA0DD /* YFCalendarView-Info.plist */,
+				2F8321CA349834E57F9B794C0266CC69 /* YFCalendarView-prefix.pch */,
+				1F38D469DD4B34255A1A28C2F8A5F06C /* YFCalendarView-umbrella.h */,
+				A16ABB6E082E29E17462A94637F9E305 /* YFCalendarView.debug.xcconfig */,
+				9FCEAAF3DBEAFAEC2531575B978BDB47 /* YFCalendarView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YFCalendarView";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5ABE5581982B5A777F39ED51FC88B6ED /* Headers */ = {
+		4672C249DF3319D6B929EA0615FBE770 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09681B1255C6F4D8FF61364F4BC50E57 /* YFCalendarView-umbrella.h in Headers */,
+				1C54AA7F4081F370FE3AD0A8F66D1FDE /* EXCalendarApperance.h in Headers */,
+				4AA427128642D0086A5B637F4E8A056D /* EXCalendarCircleView.h in Headers */,
+				2EF29C9CB1D5CF4AA25BEC97B3FB0318 /* EXCalendarCollectionViewCell.h in Headers */,
+				BE7F425CA15D1D9D6768DF3E3D122EA4 /* EXCalendarCollectionViewFlowLayout.h in Headers */,
+				42DBE10A681601AE194BDC5748E5A7D6 /* EXCalendarDayItem.h in Headers */,
+				DF01D85ED3C699D058753B6C5F734069 /* EXCalendarDelegate.h in Headers */,
+				FFFBC9B0AEE0C5288ED5609F16FDBB61 /* EXCalendarManager.h in Headers */,
+				A54AC21736A72979E8625E03AA1E2F79 /* EXCalendarView.h in Headers */,
+				CE27B910CB482101DEB3E73BE8007165 /* EXCalendarWeekView.h in Headers */,
+				B84588C255D9C79EADCCF4273B56ABD5 /* YFCalendarView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +322,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C440B865B1A3D364653AAC563E2912CB /* PBXTargetDependency */,
+				CE05F807EAB69AF0638551B6D0590434 /* PBXTargetDependency */,
 			);
 			name = "Pods-YFCalendarView_Example";
 			productName = "Pods-YFCalendarView_Example";
@@ -274,12 +331,12 @@
 		};
 		61DBD7F16D8CF3929BD65DA9F5B16611 /* YFCalendarView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E664ABCFEB1C7496113796F05EB3A29 /* Build configuration list for PBXNativeTarget "YFCalendarView" */;
+			buildConfigurationList = 38272C8608E81D839A4AA249D43BA361 /* Build configuration list for PBXNativeTarget "YFCalendarView" */;
 			buildPhases = (
-				5ABE5581982B5A777F39ED51FC88B6ED /* Headers */,
-				D4E200FD4E7CC0265130DAAB7327E848 /* Sources */,
-				0850309344B3E75578B7FA12C538CBF9 /* Frameworks */,
-				767DAA8D37B07A2BB89E9BD44A7759BA /* Resources */,
+				4672C249DF3319D6B929EA0615FBE770 /* Headers */,
+				1893EC8C1BCD58EC1DE6AC35D439540D /* Sources */,
+				7DA08AA8877A740528F0DC02E70914E8 /* Frameworks */,
+				EBB24FDCCE3605954ED174C463240BA3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -302,7 +359,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7C6F8BC8F549DCE003FA9A1557454799 /* PBXTargetDependency */,
+				4958F4D47BB49C2E59F6B66155A16656 /* PBXTargetDependency */,
 			);
 			name = "Pods-YFCalendarView_Tests";
 			productName = "Pods-YFCalendarView_Tests";
@@ -353,7 +410,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		767DAA8D37B07A2BB89E9BD44A7759BA /* Resources */ = {
+		EBB24FDCCE3605954ED174C463240BA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,6 +428,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1893EC8C1BCD58EC1DE6AC35D439540D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC0142D128A166C9DBDF8430AD68AA7 /* EXCalendarApperance.m in Sources */,
+				0A699CD167CCC58B390A2CFB62DAB081 /* EXCalendarCircleView.m in Sources */,
+				5807565538DCAEEB92185AAB7C6EFF3B /* EXCalendarCollectionViewCell.m in Sources */,
+				CA4CE340078CB5A0922900EB9B2096D8 /* EXCalendarCollectionViewFlowLayout.m in Sources */,
+				E36353BFDFE079FE37335E75F640DC5B /* EXCalendarDayItem.m in Sources */,
+				D775BE0C64A5FC2DB6BAB5339C1F4ABB /* EXCalendarManager.m in Sources */,
+				EC9510DAD5B56E84EA9E78C50865773A /* EXCalendarView.m in Sources */,
+				57DE26DC857D42473DE3ABCFA2199F23 /* EXCalendarWeekView.m in Sources */,
+				C166E62C8E719E0BCB14695CF3972100 /* YFCalendarView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D3390FC979606159396A99082BBE4404 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,64 +452,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4E200FD4E7CC0265130DAAB7327E848 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B45A023214DAA9D947875B38C8CD3BE /* ReplaceMe.m in Sources */,
-				09FBE2E0FF8717554DA1557624C37CFB /* YFCalendarView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7C6F8BC8F549DCE003FA9A1557454799 /* PBXTargetDependency */ = {
+		4958F4D47BB49C2E59F6B66155A16656 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YFCalendarView_Example";
 			target = 45D22EA154F6A66C1FBB263FDF6BA9E9 /* Pods-YFCalendarView_Example */;
-			targetProxy = 9F6EE4E802534A2D93A78F2B6834A3E2 /* PBXContainerItemProxy */;
+			targetProxy = A481B14CF858E57B83F47F5A02E62EB7 /* PBXContainerItemProxy */;
 		};
-		C440B865B1A3D364653AAC563E2912CB /* PBXTargetDependency */ = {
+		CE05F807EAB69AF0638551B6D0590434 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YFCalendarView;
 			target = 61DBD7F16D8CF3929BD65DA9F5B16611 /* YFCalendarView */;
-			targetProxy = 061B9C82D7814D88F5AACCF0A05571DE /* PBXContainerItemProxy */;
+			targetProxy = 1E4BFC93ED7DF1996F6A642051ED93EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00CAFF1F5C3D27A3E533C8A505529BA6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D27377FBE8451CCE5A6FF43DD6CA398 /* YFCalendarView.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YFCalendarView/YFCalendarView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YFCalendarView/YFCalendarView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YFCalendarView/YFCalendarView.modulemap";
-				PRODUCT_MODULE_NAME = YFCalendarView;
-				PRODUCT_NAME = YFCalendarView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1001DA5B6A9736DE4D05C77538FAA8C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 520F8B30CCEA32DF9D49177E437D7C6C /* Pods-YFCalendarView_Tests.release.xcconfig */;
@@ -601,9 +634,9 @@
 			};
 			name = Release;
 		};
-		BF5EAA7DA54ED34FFBAE305F54984D36 /* Debug */ = {
+		6DF4C4BE8C9D05327743D806433E73A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A545BEF75FB45C46023DBC06B24E5EB /* YFCalendarView.debug.xcconfig */;
+			baseConfigurationReference = A16ABB6E082E29E17462A94637F9E305 /* YFCalendarView.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -630,6 +663,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		9438EA1AD44D3275B7D465972CC701B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FCEAAF3DBEAFAEC2531575B978BDB47 /* YFCalendarView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YFCalendarView/YFCalendarView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YFCalendarView/YFCalendarView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YFCalendarView/YFCalendarView.modulemap";
+				PRODUCT_MODULE_NAME = YFCalendarView;
+				PRODUCT_NAME = YFCalendarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -728,6 +792,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		38272C8608E81D839A4AA249D43BA361 /* Build configuration list for PBXNativeTarget "YFCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF4C4BE8C9D05327743D806433E73A7 /* Debug */,
+				9438EA1AD44D3275B7D465972CC701B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -742,15 +815,6 @@
 			buildConfigurations = (
 				DA35D5F74731F0880944326CBB5B40AC /* Debug */,
 				568A5C954F91CE47ABFD2FE117453991 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8E664ABCFEB1C7496113796F05EB3A29 /* Build configuration list for PBXNativeTarget "YFCalendarView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BF5EAA7DA54ED34FFBAE305F54984D36 /* Debug */,
-				00CAFF1F5C3D27A3E533C8A505529BA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
