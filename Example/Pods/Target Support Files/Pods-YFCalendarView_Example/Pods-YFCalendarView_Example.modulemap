@@ -1,0 +1,6 @@
+framework module Pods_YFCalendarView_Example {
+  umbrella header "Pods-YFCalendarView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

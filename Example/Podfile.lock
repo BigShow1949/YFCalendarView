@@ -1,0 +1,16 @@
+PODS:
+  - YFCalendarView (0.1.0)
+
+DEPENDENCIES:
+  - YFCalendarView (from `../`)
+
+EXTERNAL SOURCES:
+  YFCalendarView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YFCalendarView: 8400fb0dd218a7704b0b29f6284b460aac7a61d5
+
+PODFILE CHECKSUM: a8ecdbc91177912b8b35dd04e9e56bc1a954f205
+
+COCOAPODS: 1.10.1
